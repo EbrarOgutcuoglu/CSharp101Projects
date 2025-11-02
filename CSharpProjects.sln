@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Oper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversion", "TypeCasting\TypeConversion.csproj", "{2CA057E7-0926-4B74-8F40-5B7B939B7AE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionExample", "ExceptionExample\ExceptionExample.csproj", "{A86FFA6B-9121-4B6D-BEEC-AC67B6825A0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2CA057E7-0926-4B74-8F40-5B7B939B7AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CA057E7-0926-4B74-8F40-5B7B939B7AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CA057E7-0926-4B74-8F40-5B7B939B7AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86FFA6B-9121-4B6D-BEEC-AC67B6825A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86FFA6B-9121-4B6D-BEEC-AC67B6825A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86FFA6B-9121-4B6D-BEEC-AC67B6825A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86FFA6B-9121-4B6D-BEEC-AC67B6825A0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
