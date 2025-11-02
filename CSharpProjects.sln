@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionExample", "Excepti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalStatements", "If_else\ConditionalStatements.csproj", "{01EEA7B7-D85B-40E7-88CD-EC23A758EAED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop", "Loop\Loop.csproj", "{AFAFF376-74E9-48A7-AA68-9B9AE4158FE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{01EEA7B7-D85B-40E7-88CD-EC23A758EAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01EEA7B7-D85B-40E7-88CD-EC23A758EAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01EEA7B7-D85B-40E7-88CD-EC23A758EAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFAFF376-74E9-48A7-AA68-9B9AE4158FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFAFF376-74E9-48A7-AA68-9B9AE4158FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFAFF376-74E9-48A7-AA68-9B9AE4158FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFAFF376-74E9-48A7-AA68-9B9AE4158FE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
