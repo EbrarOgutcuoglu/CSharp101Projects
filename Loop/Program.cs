@@ -4,7 +4,7 @@
     {
         
         //Prints the odd numbers that are equal to the number entered on the screen.
-        /*int num = Convert.ToInt32(Console.ReadLine());
+        int num = Convert.ToInt32(Console.ReadLine());
         for(int i = 1; i<=num; i++)
         {
             if(i%2 == 1)
@@ -38,7 +38,7 @@
             if (i == 4)
                 continue;
             Console.WriteLine(i);
-        }*/
+        }
 
         //WHILE
         // Prints the average of the numbers entered from 1 to n.
