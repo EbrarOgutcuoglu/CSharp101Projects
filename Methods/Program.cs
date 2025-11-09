@@ -19,6 +19,26 @@
         Console.WriteLine(result3);
         Console.WriteLine("After ref int a : " + a + " after ref int b: " + b);
 
+        //out parameter
+        String num = "999";
+        bool status = int.TryParse(num, out int numResult);
+        if (status)
+        {
+            Console.WriteLine("completed");
+            Console.WriteLine(numResult);
+        }
+        else
+        {
+            Console.WriteLine("failed");
+        }
+
+        m.substraction(a, b, out int resultSubstraction);
+        Console.WriteLine(resultSubstraction);
+
+
+        //method overloading 
+        int number = 100;
+        m.print(number);
         
     }
 
@@ -36,6 +56,12 @@ class Method
         Console.WriteLine(data);
     }
 
+    //method overloading
+    public void print(int data)
+    {
+        Console.WriteLine(data);
+    }
+
     public int increaseSum(int a , int b)
     {
         a++;
@@ -48,5 +74,11 @@ class Method
         a++;
         b++;
         return a + b;
+    }
+
+    //out parameter
+    public void substraction(int a , int b , out int result)
+    {
+        result = a - b;
     }
 }
