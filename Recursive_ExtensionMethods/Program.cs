@@ -40,6 +40,7 @@ public class Operations
         
         return Expo(num, expo - 1) * num;
     }
+    
 
 }
 
