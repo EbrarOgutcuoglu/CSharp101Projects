@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessMo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{8ACAB219-C2E9-4D91-9BD8-D1238E323526}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework-1", "homework-1\homework-1.csproj", "{DDC4B673-B050-48D1-B4DC-BFAF29659A85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{8ACAB219-C2E9-4D91-9BD8-D1238E323526}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ACAB219-C2E9-4D91-9BD8-D1238E323526}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ACAB219-C2E9-4D91-9BD8-D1238E323526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC4B673-B050-48D1-B4DC-BFAF29659A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC4B673-B050-48D1-B4DC-BFAF29659A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC4B673-B050-48D1-B4DC-BFAF29659A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC4B673-B050-48D1-B4DC-BFAF29659A85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
