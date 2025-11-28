@@ -9,7 +9,7 @@ internal class Program
          Console.WriteLine();
          Console.WriteLine();
          Console.WriteLine("2)-------");
-             printNumbersDivisible();
+         printNumbersDivisible();
         
         Console.WriteLine("3)----------");
         printWordsReverse();
